@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Interactive Greeting Card</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="card">
+    <img id="greetingImage" src="image.jpeg" alt="Greeting Image" />
+    <h1>Hello, <span id="username">Guest</span>!</h1>
+    <input type="text" id="nameInput" placeholder="Enter your name" />
+    <br />
+    <button onclick="triggerAnimation()">Animate</button>
+    <button onclick="saveName()">Save Name</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
